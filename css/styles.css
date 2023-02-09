@@ -1,0 +1,166 @@
+
+
+/* -------- General CSS --------- */
+
+body {
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    color: white;
+}
+
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+}
+
+h5 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-weight: 100;
+}
+
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    line-height: 32px;
+}
+
+
+/* --------  NAVBAR --------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.logo {
+    margin: 2%;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1% 2% 2% 2%;
+    list-style: none;
+    height: 70px;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.background-navbar {
+    z-index: -2;
+    position: absolute;
+    left: 45%;
+    margin-top: 2px;
+    width: 80%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur(1rem);
+}
+
+li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    height: 100%;
+    line-height: 70px;
+}
+
+a:hover {
+    opacity: 90%;
+    border-bottom: 2px white solid;
+}
+
+.divider {
+    z-index: 2;
+    position: absolute;
+    left: 8%;
+    margin-top: 50px;
+    width: 35%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.297);
+    backdrop-filter: blur(1rem);
+}
+
+.selected {
+    opacity: 100%;
+    border-bottom: 2px white solid;
+}
+
+
+/* -------- Main section --------- */
+
+main {
+    display: flex;
+    margin-top: 40px;
+}
+
+/* -------- Main section: Left side --------- */
+
+
+.container-text-desktop {
+    width: 50%;
+}
+
+
+/* -------- Main section: Right side --------- */
+
+.container-btn-explore {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-desktop {
+    margin-left: 50px;
+}
+
+.btn-explore{
+    background-color: white;
+    font-family: 'Bellefair', serif;
+    font-size: 50px;
+    font-weight: 100;
+    border-radius: 50%;
+    width: 274px;
+    height: 274px;
+    border: none;
+}
+
+.btn-explore:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0.152);
+}
+
