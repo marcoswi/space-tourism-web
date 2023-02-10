@@ -1,0 +1,56 @@
+@import url(styles.css);
+
+body {
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    color: white;
+}
+
+/* -------- Main section --------- */
+
+main {
+    display: flex;
+    margin-top: 50px;
+}
+
+/* -------- Main section: Left side --------- */
+
+
+.container-text-desktop {
+    width: 50%;
+}
+
+
+/* -------- Main section: Right side --------- */
+
+.container-btn-explore {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-desktop {
+    margin-left: 50px;
+}
+
+.text-title {
+    margin: 5% 0;
+}
+
+.btn-explore{
+    background-color: white;
+    font-family: 'Bellefair', serif;
+    font-size: 50px;
+    font-weight: 100;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: none;
+    margin-top: 60%;
+}
+
+.btn-explore:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0.152);
+}
+

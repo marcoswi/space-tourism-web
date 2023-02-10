@@ -1,0 +1,68 @@
+@import url(styles.css);
+
+body {
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    color: white;
+}
+
+/* <!-- Destination page Main Section --> */
+
+.destination-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* <!-- Main Section: Left (Img) --> */
+
+.destination-img-section{
+    width: 50%;
+}
+
+.destination-img {
+    margin: 5% 0 0 10%;
+}
+
+/* <!-- Main Section: Right (Text) --> */
+
+.destination-main-text {
+    width: 50%;
+}
+
+.destination-options {
+    display: flex;
+    width: 50%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 0 10%;
+}
+
+.destination-description {
+    width: 80%;
+}
+
+.destination-data {
+    display: flex;
+    align-content: flex-start;
+    margin-top: 5%;
+}
+
+.destination-data-item {
+    margin-right: 18%;
+    margin-top: 2%;
+}
+
+.data-title{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.data-number{
+    font-family: 'Bellefair', serif;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    margin-top: 8%;
+}

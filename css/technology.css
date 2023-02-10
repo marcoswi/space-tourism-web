@@ -1,0 +1,62 @@
+@import url(styles.css);
+
+body {
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    color: white;
+}
+
+/* <!-- Crew page Main Section --> */
+
+.tech-main-section {
+    display: flex;
+    margin-left: 10%;
+}
+
+/* <!-- Main Section Left: Options --> */
+
+.tech-options-section {
+    width: 5%;
+    margin-top: 5%;
+}
+
+.tech-option {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    opacity: 50%;
+    margin: 50% 10%;
+}
+
+/* <!-- Main Section Middle: Text --> */
+
+.tech-text-section {
+    width: 50%;
+    margin-left: 5%;
+    margin: 5% 0 0 5%;
+}
+
+.tech-text-section h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+
+.tech-title {
+    margin: 5% 0;
+}
+
+
+
+/* <!-- Main Section Right: Img --> */
+
+.tech-img-section {
+    width: 40%;
+}
+
+.tech-img {
+    width: 80%;
+    margin: 10% 10%;
+    align-content: center;
+}

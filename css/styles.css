@@ -2,12 +2,6 @@
 
 /* -------- General CSS --------- */
 
-body {
-    background-image: url(/assets/home/background-home-desktop.jpg);
-    color: white;
-}
-
-
 h1 {
     font-family: 'Bellefair', serif;
     font-size: 150px;
@@ -18,16 +12,22 @@ h1 {
 h2 {
     font-family: 'Bellefair', serif;
     font-size: 100px;
+    font-weight: 300;
+    margin: 0;
 }
 
 h3 {
     font-family: 'Bellefair', serif;
     font-size: 56px;
+    font-weight: 200;
+    margin: 0;
 }
 
 h4 {
     font-family: 'Bellefair', serif;
     font-size: 32px;
+    font-weight: 100;
+    margin: 0;
 }
 
 h5 {
@@ -35,8 +35,8 @@ h5 {
     font-size: 28px;
     letter-spacing: 4.75px;
     font-weight: 100;
+    margin: 0;
 }
-
 
 p {
     font-family: 'Barlow Condensed', sans-serif;
@@ -44,7 +44,21 @@ p {
     letter-spacing: 1.5px;
     font-weight: 100;
     line-height: 32px;
+    margin: 0;
+    color: #D0D6F9;
 }
+
+span {
+    opacity: 60%;
+}
+
+.page-subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin: 0 0 0 10%;
+}
+
 
 
 /* --------  NAVBAR --------- */
@@ -90,7 +104,7 @@ li {
     align-items: center;
 }
 
-a {
+.menu-btn {
     text-decoration: none;
     color: white;
     opacity: 60%;
@@ -98,7 +112,7 @@ a {
     line-height: 70px;
 }
 
-a:hover {
+.menu-btn:hover {
     opacity: 90%;
     border-bottom: 2px white solid;
 }
@@ -119,48 +133,4 @@ a:hover {
     border-bottom: 2px white solid;
 }
 
-
-/* -------- Main section --------- */
-
-main {
-    display: flex;
-    margin-top: 40px;
-}
-
-/* -------- Main section: Left side --------- */
-
-
-.container-text-desktop {
-    width: 50%;
-}
-
-
-/* -------- Main section: Right side --------- */
-
-.container-btn-explore {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-desktop {
-    margin-left: 50px;
-}
-
-.btn-explore{
-    background-color: white;
-    font-family: 'Bellefair', serif;
-    font-size: 50px;
-    font-weight: 100;
-    border-radius: 50%;
-    width: 274px;
-    height: 274px;
-    border: none;
-}
-
-.btn-explore:hover {
-    transition: 0.5s;
-    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0.152);
-}
 
