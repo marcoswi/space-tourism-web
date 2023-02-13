@@ -28,6 +28,10 @@ body {
     margin: 50% 10%;
 }
 
+.selected-tech-option{  
+    opacity: 100%
+}
+
 /* <!-- Main Section Middle: Text --> */
 
 .tech-text-section {

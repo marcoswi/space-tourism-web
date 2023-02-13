@@ -36,35 +36,38 @@
     <h5 class="page-subtitle"><span>01</span> PICK YOUR DESTINATION</h5>
     <div class="destination-main"> 
         <div class="destination-img-section">
-            <img class="destination-img" src="/assets/destination/image-moon.png" alt="moon">
+            <img id="destination-img" src="/assets/destination/image-moon.png" alt="moon">
         </div>
 
 <!-- Main Section: Right (Text)-->
 
         <div class="destination-main-text">
             <ul class="destination-options">
-                <li>MOON</li>
-                <li>MARS</li>
-                <li>EUROPA</li>
-                <li>TITAN</li>
+                <li id="moon" class="option selected-destination">MOON</li>
+                <li id="mars" class="option">MARS</li>
+                <li id="europa" class="option">EUROPA</li>
+                <li id="titan" class="option">TITAN</li>
             </ul>
-            <h2>MOON</h4>
+            <h2 id="destination-title">MOON</h4>
 
-            <p class="destination-description" > See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            <p id="destination-description" > See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
             regain perspective and come back refreshed. While you’re there, take in some history 
             by visiting the Luna 2 and Apollo 11 landing sites.</p>
             <div class="destination-data"> 
                 <div class="destination-data-item">
                     <h4 class="data-title">AVG. DISTANCE</h4>
-                    <p class="data-number">384,400 km</p> 
+                    <p id="destination-kms" class="data-number">384,400 km</p> 
                 </div>
                 <div class="destination-data-item">
                     <h4 class="data-title"> EST. TRAVEL TIME</h4>
-                    <p class="data-number">3 days</p> 
+                    <p id="destination-days" class="data-number">3 days</p> 
                 </div>
             </div> 
         </div>
     </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

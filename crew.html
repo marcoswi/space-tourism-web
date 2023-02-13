@@ -37,16 +37,16 @@
 
 <div class="crew-main-section">
     <div class="crew-text-section">
-        <h4>COMMANDER</h4>
-        <h3 class="crew-name">DUGLAS HURLEY</h3>
-        <p> Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+        <h4 id="crew-title">COMMANDER</h4>
+        <h3 id="crew-name" class="crew-name">DUGLAS HURLEY</h3>
+        <p id="crew-description"> Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
         and former NASA astronaut. He launched into space for the third time as 
         commander of Crew Dragon Demo-2.</p>
         <div class="crew-options">
-            <button class="crew-option 1"></button>
-            <button class="crew-option 2"></button>
-            <button class="crew-option 3"></button>
-            <button class="crew-option 4"></button>
+            <button type="button" id="commander" class="crew-option selected-crew-option"></button>
+            <button type="button" id="engineer" class="crew-option"></button>
+            <button type="button" id="pilot" class="crew-option"></button>
+            <button type="button" id="specialist" class="crew-option"></button>
         </div>
     </div>
 
@@ -54,9 +54,12 @@
 <!-- Main Section: Right (Img)-->
 
     <div class="crew-img-section">
-        <img class="crew-img" src="/assets/crew/image-douglas-hurley.png" alt="dublas hurley photo">
+        <img id="crew-img" class="crew-img" src="/assets/crew/image-douglas-hurley.png" alt="dublas hurley photo">
     </div>
 </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
