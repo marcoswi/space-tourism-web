@@ -17,7 +17,7 @@ $(".option").click(function(event){
 
 
 function changeDestinationImg (selectedDestination){
-    document.getElementById("destination-img").src="/assets/destination/image-" + selectedDestination + ".png";
+    document.getElementById("destination-img").src="assets/destination/image-" + selectedDestination + ".png";
 };
 
 function changeDestinationInfo (selectedDestination){
@@ -67,25 +67,25 @@ function changeCrewPage (selectedCrewOption){
             document.getElementById("crew-title").innerHTML = "COMMANDER";
             document.getElementById("crew-name").innerHTML = "DUGLAS HURLEY";
             document.getElementById("crew-description").innerHTML = "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.";
-            document.getElementById("crew-img").src = ("/assets/crew/image-"+ "douglas-hurley" + ".png");
+            document.getElementById("crew-img").src = ("assets/crew/image-"+ "douglas-hurley" + ".png");
             break;
         case "engineer":
             document.getElementById("crew-title").innerHTML = "ENGINEER";
             document.getElementById("crew-name").innerHTML = "ANOUSHEH ANSARI";
             document.getElementById("crew-description").innerHTML = "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. ";
-            document.getElementById("crew-img").src = ("/assets/crew/image-"+ "anousheh-ansari" + ".png");
+            document.getElementById("crew-img").src = ("assets/crew/image-"+ "anousheh-ansari" + ".png");
             break;
         case "pilot":
             document.getElementById("crew-title").innerHTML = "PILOT";
             document.getElementById("crew-name").innerHTML = "VICTOR GLOVER";
             document.getElementById("crew-description").innerHTML = "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ";
-            document.getElementById("crew-img").src = ("/assets/crew/image-"+ "victor-glover" + ".png");
+            document.getElementById("crew-img").src = ("assets/crew/image-"+ "victor-glover" + ".png");
             break;
         case "specialist":
             document.getElementById("crew-title").innerHTML = "SPECIALIST";
             document.getElementById("crew-name").innerHTML = "MARK SHUTTLEWORTH";
             document.getElementById("crew-description").innerHTML = "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.";
-            document.getElementById("crew-img").src = "/assets/crew/image-"+ "mark-shuttleworth" + ".png";
+            document.getElementById("crew-img").src = "assets/crew/image-"+ "mark-shuttleworth" + ".png";
             break;
         default: console.log("something went wrong");
     };
@@ -108,17 +108,17 @@ function changeTechPage (selectedTechOption) {
         case "space-capsule" :
             document.getElementById("tech-title").innerHTML = "SPACE CAPSULE";
             document.getElementById("tech-description").innerHTML = "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.";
-            document.getElementById("tech-img").src = "/assets/technology/image-space-capsule-portrait.jpg";
+            document.getElementById("tech-img").src = "assets/technology/image-space-capsule-portrait.jpg";
             break;
         case "spaceport" :
             document.getElementById("tech-title").innerHTML = "SPACEPORT";
             document.getElementById("tech-description").innerHTML = "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.";
-            document.getElementById("tech-img").src = "/assets/technology/image-spaceport-portrait.jpg";
+            document.getElementById("tech-img").src = "assets/technology/image-spaceport-portrait.jpg";
             break;
         case "vehicle" :
             document.getElementById("tech-title").innerHTML = "VEHICLE";
             document.getElementById("tech-description").innerHTML = "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!";
-            document.getElementById("tech-img").src = "/assets/technology/image-launch-vehicle-portrait.jpg";
+            document.getElementById("tech-img").src = "assets/technology/image-launch-vehicle-portrait.jpg";
             break;  
         default: console.log("something went wrong");      
     };
