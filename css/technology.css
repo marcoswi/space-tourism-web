@@ -1,7 +1,7 @@
 @import url(styles.css);
 
 body {
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
     color: white;
 }
 
